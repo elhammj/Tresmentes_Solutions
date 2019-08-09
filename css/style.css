@@ -655,6 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-col {
   background: #fff;
+  height: 100%;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
@@ -734,6 +735,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box {
   margin-bottom: 30px;
+  height:100%;
 }
 
 #services .icon {
@@ -741,7 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .icon i {
-  color: #18d26e;
+  color: #00719e;
   font-size: 36px;
   line-height: 1;
   transition: 0.5s;
@@ -752,14 +754,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  color: #e86024;
 }
 
 #services .title a {
-  color: #111;
+  color: #e86024;
 }
 
 #services .box:hover .title a {
-  color: #18d26e;
+  color: #00719e;
 }
 
 #services .description {
@@ -767,6 +770,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 /* Call To Action Section
