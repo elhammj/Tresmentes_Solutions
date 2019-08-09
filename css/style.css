@@ -394,6 +394,7 @@ h6 {
 
 .nav-menu ul li {
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .nav-menu ul li a {
@@ -403,6 +404,7 @@ h6 {
   display: block;
   font-size: 13px;
   text-transform: none;
+  cursor: pointer;
 }
 
 .nav-menu ul li:hover > a {
@@ -1077,7 +1079,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #18d26e;
+  background-color: #00719e;
 }
 
 /* Testimonials Section
@@ -1158,14 +1160,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #team {
-  background: #fff;
+  background: #ddd;
   padding: 60px 0;
 }
 
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #fff;
+  background: #ddd;
   position: relative;
 }
 
@@ -1361,6 +1363,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 10px;
   color: #ddd;
+}
+
+/*-------------------------------------------------------------
+# Social Media 
+--------------------------------------------------------------*/
+.social-media > ul{
+  list-style-type: none;
+}
+
+.social-media > ul > a > li{
+  float: left;
+  padding-top: 20px;
+  font-size: 25px;
+  padding-right: 15px;
+  color: #fff;
+}
+
+.social-media > ul > a :hover {
+  color: #e86024;
 }
 
 /*--------------------------------------------------------------
