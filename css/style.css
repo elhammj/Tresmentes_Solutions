@@ -775,26 +775,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: justify;
 }
 
-/* Call To Action Section
+/* contact To Action Section
 --------------------------------*/
 
-#call-to-action {
+#contact-to-action {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
 
-#call-to-action h3 {
+#contact-to-action h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action p {
+#contact-to-action p {
   color: #fff;
 }
 
-#call-to-action .cta-btn {
+#contact-to-action .cta-btn {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -809,12 +809,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#contact-to-action .cta-btn:hover {
   background: #e86024;
   border: 2px solid #e86024;
 }
 
-/* Call To Action Section
+/* contact To Action Section
 --------------------------------*/
 
 #skills {
@@ -1199,7 +1199,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
   opacity: 1;
   transition: 0.4s;
 }
